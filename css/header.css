@@ -1,6 +1,7 @@
 header {
   background-color: var(--background-tertiary-color);
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
@@ -33,6 +34,11 @@ nav {
 .list-links {
   list-style: none;
 }
+
+.list-links li {
+  margin: 16px 0;
+}
+
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
