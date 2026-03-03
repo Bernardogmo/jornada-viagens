@@ -1,0 +1,6 @@
+.hero-img {
+  background-image: url("../img/banner-hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
