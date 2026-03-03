@@ -1,6 +1,42 @@
 .hero-img {
-  background-image: url("../img/banner-hero.png");
+  background-image: url("../img/hero-mobile.png");
   background-size: cover;
   background-position: center;
   height: 400px;
+}
+
+.hero-texto {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  padding: 88px 24px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    background-image: url("../img/hero-tablet.png");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    background-image: url("../img/hero-desktop.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-texto {
+    padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-texto {
+    padding: 88px 160px;
+  }
 }
