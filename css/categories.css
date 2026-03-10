@@ -11,7 +11,7 @@
   margin-top: 64px;
 }
 
-.categories-cards a.card {
+.categories-cards .card {
   background-color: var(--background-secondary-color);
   padding: 24px;
   width: 312px;
@@ -23,16 +23,16 @@
   color: var(--text-primary-color);
 }
 
-.categories-cards a.card h3 {
+.categories-cards .card h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
 }
 
-.categories-cards a.card.single-line {
+.categories-cards .card.single-line {
   padding-top: 50px;
 }
 
-.categories-cards a.card.single-line.transfer img {
+.categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
 }
 
@@ -48,13 +48,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .categories-cards a.card {
+  .categories-cards .card {
     width: 430px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .categories-cards a.card {
+  .categories-cards .card {
     width: 280px;
   }
 }
