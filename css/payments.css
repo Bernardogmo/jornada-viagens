@@ -1,3 +1,31 @@
 .payments .image-gallery {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.payments {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.payments .image-gallery .image.first {
+  background: url(../img/gallery-1-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.second {
+  background: url(../img/gallery-2-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.third {
+  background: url(../img/gallery-3-mobile.png) no-repeat center;
+  background-size: cover;
+}
+.payments .image.colspan-2 {
+  grid-column: span 2;
 }
