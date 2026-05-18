@@ -1,8 +1,19 @@
+.hero .hero-img,
+.bottom-hero .hero-img {
+  height: 400px;
+  width: 100%;
+}
+
 .hero-img {
   background-image: url("../img/hero-mobile.png");
   background-size: cover;
   background-position: center;
-  height: 400px;
+}
+
+.bottom-hero .hero-img {
+  background-image: url("../img/hero-bottom-mobile.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h2 {
@@ -22,6 +33,12 @@
     height: 620px;
   }
 
+  .bottom-hero .hero-img {
+    background-image: url("../img/hero-bottom-tablet.png");
+    background-size: cover;
+    background-position: center;
+  }
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -33,6 +50,13 @@
     background-image: url("../img/hero-desktop.png");
     background-size: cover;
     background-position: center;
+  }
+
+  .bottom-hero .hero-img {
+    background-image: url("../img/hero-bottom-desktop.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
   }
 
   .hero h2 {
