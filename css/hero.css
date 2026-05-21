@@ -68,6 +68,10 @@
 }
 
 /* Blog */
+.blog.hero {
+  margin-bottom: 88px;
+}
+
 .blog .hero-img {
   background-image: url("../img/blog/hero-blog-mobile.jpg");
   background-size: cover;
