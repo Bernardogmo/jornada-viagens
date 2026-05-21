@@ -31,13 +31,13 @@
 }
 
 .travel-packages .hero-img {
-  background-image: url("../img/hero-offers-travel.jpg");
+  background-image: url("../img/travel-packages/hero-offers-travel.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .travel-packages.bottom-hero .hero-img {
-  background-image: url("../img/hero-bottom-offers-travel.jpg");
+  background-image: url("../img/travel-packages/hero-bottom-offers-travel.jpg");
   background-size: cover;
   background-position: center;
 }
