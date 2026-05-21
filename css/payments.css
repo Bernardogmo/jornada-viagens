@@ -25,6 +25,22 @@
   grid-column: span 2;
 }
 
+/* pacotes de viagens */
+.travel-packages .content-container .image-gallery .image.first {
+  background: url(../img/gallery-offers-travel-1-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
+.travel-packages .content-container .image-gallery .image.second {
+  background: url(../img/gallery-offers-travel-2-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
+.travel-packages .content-container .image-gallery .image.third {
+  background: url(../img/gallery-offers-travel-3-mobile.png) no-repeat center;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(../img/gallery-1-tablet.png) no-repeat center;
@@ -38,6 +54,22 @@
 
   .payments .content-container .image-gallery .image.third {
     background: url(../img/gallery-3-tablet.png) no-repeat center;
+    background-size: cover;
+  }
+
+  /* pacotes de viagens */
+  .travel-packages .content-container .image-gallery .image.first {
+    background: url(../img/gallery-offers-travel-1-tablet.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .travel-packages .content-container .image-gallery .image.second {
+    background: url(../img/gallery-offers-travel-2-tablet.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .travel-packages .content-container .image-gallery .image.third {
+    background: url(../img/gallery-offers-travel-3-tablet.png) no-repeat center;
     background-size: cover;
   }
 }
@@ -54,5 +86,9 @@
   .payments .content-container .image-gallery {
     width: 790px;
     margin: 0;
+  }
+
+  .travel-packages .content-container .text-content {
+    margin: 96px 0 96px;
   }
 }
