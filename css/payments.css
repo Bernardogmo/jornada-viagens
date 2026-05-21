@@ -73,6 +73,7 @@
     background-size: cover;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
@@ -88,6 +89,7 @@
     margin: 0;
   }
 
+  /* pacotes de viagens */
   .travel-packages .content-container .text-content {
     margin: 96px 0 96px;
   }

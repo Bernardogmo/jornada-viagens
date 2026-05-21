@@ -36,6 +36,12 @@
   background-position: center;
 }
 
+.travel-packages.bottom-hero .hero-img {
+  background-image: url("../img/hero-bottom-offers-travel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .travel-packages .hero-content {
   padding: 65px 24px;
 }
